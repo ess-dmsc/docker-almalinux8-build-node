@@ -31,3 +31,10 @@ RUN dnf -y install \
         valgrind && \
     dnf -y autoremove && \
     dnf clean all
+
+RUN python3.11 -m pip install \
+      conan==1.58.0 \
+      coverage==4.4.2 \
+      flake8==3.5.0 \
+      gcovr==4.1 && \
+    rm -rf /root/.cache/pip/*
