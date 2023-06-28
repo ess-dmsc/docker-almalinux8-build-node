@@ -29,6 +29,8 @@ RUN dnf -y install \
         ninja-build \
         patch \
         openssl-devel \
+        perl-Digest-SHA \
+        perl-IPC-Cmd \
         python3.11-devel \
         qt5-qtbase-devel \
         readline-devel \
