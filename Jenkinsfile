@@ -7,7 +7,7 @@ properties([
   disableConcurrentBuilds(abortPrevious: true)
 ])
 
-imageVersion = '0.2.0'
+imageVersion = '1.0.0'
 
 imageName = "dockerregistry.esss.dk/ecdc_group/build-node-images/almalinux8-build-node:${imageVersion}"
 
